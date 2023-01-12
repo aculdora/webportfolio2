@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- width=device-width = width of the webpage will based on device width -->
+        <!-- initial-scale=1 = assures are device are initally zoomed at 100% -->
+        <!-- with shrink-to-fit=no avoid vw becomes more realistic based on the device size  -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
+
+	<title>Bootstrap Grid System</title>
+
+
+</head>
+<!-- text-center to center text -->
+
+<body class="text-center">
+
+		<h1>Bootstrap Grid System</h1>
+
+<!-- Two columns start -->
+
+		<h2>Two Columns</h2>
+
+	<div class="container-fluid">
+		
+		<h3>1:1</h3>
+
+		<div class="text-light row">
+			<div class="bg-primary pt-3 pb-3 border border-dark col-6">6 Col</div>
+			<div class="bg-secondary pt-3 pb-3 border border-dark col-6">6 Col</div>
+		</div>
+
+		<h3>1:2</h3>
+
+		<div class="text-light row">
+			<div class="bg-primary pt-3 pb-3 border border-dark col-4">4 Col</div>
+			<div class="bg-secondary pt-3 pb-3 border border-dark col-8">8 Col</div>
+		</div>
+
+		<h3>1:3</h3>
+
+		<div class="text-light row">
+			<div class="bg-primary pt-3 pb-3 border border-dark col-3">3 Col</div>
+			<div class="bg-secondary pt-3 pb-3 border border-dark col-9">9 Col</div>
+		</div>
+
+	</div>
+
+
+<!-- Two Columns End -->
+
+<!-- Three Columns Start -->
+
+		<h2>Three Columns</h2>
+
+		<!-- three equal columns -->
+		
+		<h3>1:1:1</h3>
+
+		<div class="text-light row">
+
+			<div class="bg-primary pt-3 pb-3 border border-dark col-4">4 Col</div>
+			<div class="bg-secondary pt-3 pb-3 border border-dark col-4">4 Col</div>
+			<div class="bg-primary pt-3 pb-3 border border-dark col-4">4 Col</div>
+
+		</div>
+
+			<h3>1:2:1</h3>
+
+		<div class="text-light row">
+
+			<div class="bg-primary pt-3 pb-3 border border-dark col-3">3 Col</div>
+			<div class="bg-secondary pt-3 pb-3 border border-dark col-6">6 Col</div>
+			<div class="bg-primary pt-3 pb-3 border border-dark col-3">3 Col</div>
+
+		</div>
+
+			<h3>1:4:1</h3>
+
+		<div class="text-light row">
+
+			<div class="bg-primary pt-3 pb-3 border border-dark col-2">2 Col</div>
+			<div class="bg-secondary pt-3 pb-3 border border-dark col-8">8 Col</div>
+			<div class="bg-primary pt-3 pb-3 border border-dark col-2">2 Col</div>
+
+		</div>
+
+<!-- Row with three columns divided in an uneven ratio -->
+
+		<h3>Uneven Ratio</h3>
+
+
+		<div class="text-light row">
+			<div class="bg-secondary pt-3 pb-3 border border-dark col-3">3 Col</div>
+			<div class="bg-primary pt-3 pb-3 border border-dark col-7">7 Col</div>
+			<div class="bg-secondary pt-3 pb-3 border border-dark col-2">2 Col</div>
+
+			
+		</div>
+
+<!-- Three columns End -->
+
+<!-- Automatic sizing start -->
+
+		<h3>Automatic Sizing</h3>
+
+		<div class="container-fluid">
+			<div class="text-light row">
+				<div class="bg-primary pt-3 pb-3 border border-dark col">Auto</div>
+				<div class="bg-secondary pt-3 pb-3 border border-dark col">Auto</div>
+				<div class="bg-primary pt-3 pb-3 border border-dark col">Auto</div>
+				<div class="bg-secondary pt-3 pb-3 border border-dark col">Auto</div>
+				<div class="bg-primary pt-3 pb-3 border border-dark col">Auto</div>
+			</div>
+		</div>
+
+<!-- Automatic sizing end -->
+
+<!-- What happens if we have more than 12 columns occupied in one row? -->
+
+		<h2>Multi-Column Layouts</h2>
+
+		<div class="container-fluid">
+			<div class="text-light row">
+				<div class="bg-primary pt-3 pb-3 border border-dark col-4">Catalog 1</div>
+				<div class="bg-secondary pt-3 pb-3 border border-dark col-4">Catalog 2</div>
+				<div class="bg-primary pt-3 pb-3 border border-dark col-4">Catalog 3</div>
+				<div class="bg-secondary pt-3 pb-3 border border-dark col-4">Catalog 4</div>
+				<div class="bg-primary pt-3 pb-3 border border-dark col-4">Catalog 5</div>
+				<div class="bg-secondary pt-3 pb-3 border border-dark col-4">Catalog 6</div>
+			</div>
+		</div>
+
+<!-- Offsetting Columns End -->
+
+<!-- Offsetting Start -->
+		
+		<h2>Offsetting Column</h2>
+
+		<div class="container-fluid">
+			<div class="text-light row">
+				<div class="bg-primary pt-3 pb-3 border border-dark offset-2 col-6">Offset Column</div>
+				<div class="bg-primary pt-3 pb-3 border border-dark offset-3 col-6">Offset Column</div>
+				<div class="bg-primary pt-3 pb-3 border border-dark offset-4 col-6">Offset Column</div>
+			</div>
+		</div>
+
+
+<!-- Offsetting End -->
+
+<!-- Columns Order System -->
+
+<!-- md - medium devices to large devices -->
+<!-- sm - for small devices -->
+<!-- lg - Large Devices -->
+
+	<h2>Column Orders</h2>
+	<div class="container-fluid">
+		<div class="text-light row">
+		<div class="bg-primary pt-3 pb-3 border border-dark col order-2 order-md-1">Left</div>
+		<div class="bg-secondary pt-3 pb-3 border border-dark col order-1 order-md-2">Right</div>
+		</div>
+	</div>
+
+<!-- Columns Order System End -->
+
+
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+
+	
+
+
+</html>

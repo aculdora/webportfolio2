@@ -1,0 +1,66 @@
+* 
+.cutie{
+
+	color: red !important
+
+}
+
+*{
+
+	font-family: "verdana", sans-serif;"
+	font-size: 20px;	
+
+}
+
+h1 {
+
+	font-size: 4rem;
+}
+
+#anthony {
+
+text-transform: uppercase;
+
+}
+
+.culdora{
+
+	background-color: lightgreen;
+}
+
+
+#border {
+
+	border-style: solid;
+	border-color: green;
+}
+
+
+
+h4 + img {
+	
+	height: 300px;
+	border-width: 300px;
+	border-radius: 150px;
+}
+
+section img {
+
+height: 200px;
+width: 200px;
+
+}
+
+h4 ~ p {
+
+	text-align: center;
+	color: black !important;
+}
+
+ul > li {
+
+ letter-spacing: 10px;
+ list-style-type: none;
+
+
+}

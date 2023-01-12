@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<title>CSS Styling Properties and Positioning</title>
+	
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100;400&family=Playfair+Display&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<h2>CSS Common Styling</h2>
+
+
+	<!-- div has a display property of block -->
+    <div id="div-1">Div display as block by default</div> 
+    <span id="span-1">Span display as inline by default</span>
+    <img src="https://images.squarespace-cdn.com/content/v1/58b4791ad2b857c893179e34/1537971642021-LHW76T7O8JG0M4GLTSTP/IMG_2818.jpg?format=500w" id="img">
+    <span id="span-2">This is a configured span with display property block</span>
+    <div id="hidden-div">You can't see me</div>
+
+    <h3>Notes in block, inline and inline-block</h3>
+    <p id="p-width100">Block takes up the whole width by default</p>
+    <p id="p-width60">width 60</p>
+    <p id="p-width40">width 40</p>
+
+    <p>Even if there is enough space, block elements do not sit next to each other unless if they are floated.</p>
+
+    <p>Inline elements are things like bold and italics. You cannot control the height and width of these elements.</p>
+
+    <p>Inline-block can sit on the same line and combines block and inline properties</p>
+
+    <div class="p-inlineBlock">width = 30</div>
+    <div class="p-inlineBlock">width = 30</div>
+    <div class="p-inlineBlock">width = 30</div>
+
+<hr>
+
+	<h3>CSS Units</h3>
+
+   
+    <!-- Percent is relative to its parent element if no parent element the body tag will serve as its parent-->
+    <div class="box fifty-percent">50%</div>
+
+    <!-- Pixels depends on the devices and screen resolution -->
+    <div class="box one-hundred-pixels">100px</div>
+
+    <!-- vw and vh are based on actual height or width of the screen  -->
+    <div class="box fifty-vw">50vw</div>
+    <div class="box twenty-five-vh">25vh</div>
+
+
+    <!-- Font Sizes -->
+   <div>16px</div> <!--By default font size is 16px -->
+
+   <!-- em is relative to its parent size, if there is no parent it will based its size to the body tag which where it enclosed, body tag has no declared font-size, so by default it is 16px  -->
+    <!-- rem based its size to its root element (<html>) (parent size doesn't matter) -->
+    <!-- em is just like % that is relative to its parent, while rem is like vw and vh that is based on the root element  -->
+
+   <div class="one-em">1em</div>
+   <div class="one-rem">1rem</div>
+   <div class="two-em">2em</div>
+   <div class="two-rem">2rem</div>
+   <div class="two-hundred-percent">200%</div>
+
+   <!-- parent -->
+
+   <div class="parent">
+        <div class="box fifty-percent">50%</div>
+        <div class="box one-hundred-pixels">100px</div>
+        <div class="box fifty-vw">50vw</div>
+        <div class="box twenty-five-vh">25vh</div>
+
+        <div class="one-em">1em</div>
+        <div class="one-rem">1rem</div>
+        <div class="two-em">2em</div>
+        <div class="two-rem">2rem</div>
+        <div class="two-hundred-percent">200%</div>
+    </div>
+
+ <hr>
+
+ <!-- Background Property -->
+    <section class="background">
+        <div class="container-bg">
+            <h3 class="bg-title">CSS Background Properties</h3>
+        </div>
+    </section>
+
+<!-- CSS Positioning -->
+    <h2>CSS Positioning</h2>
+
+    <div class="parent-element">
+        Parent Element
+        <div class="child-one">
+            I'm the child one element.
+        </div>
+
+        <div class="child-two">
+            All eyes on me. I am the child two element.
+        </div>
+
+        <div class="child-three">
+            I'm the child three element.
+        </div>
+    </div>
+
+
+ <hr>
+
+    <h2>Z-index example</h2>
+
+    <p>An element with greater stack order is always above an element with a lower stack order.</p>
+
+    <div class="container">
+        <div class="black-box">Black box (z-index: 1)</div>
+        <div class="gray-box">Gray box (z-index: 3)</div>
+        <div class="green-box">Green box (z-index: 2)</div>
+    </div>
+
+
+</body>
+</html>

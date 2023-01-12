@@ -1,0 +1,17 @@
+1. In the S11 folder, create an activity folder.
+2. Clone/copy the template for the index.html file.
+3. Apply Bootstrap to the project by adding all the dependencies.
+4. Apply Bootstrap classes to the Navbar Section with the following layout:
+- The elements must appear side by side with a space between the name of the developer and the links to the other pages.
+5. Apply Bootstrap classes to the outer div tag of the Main Content Section to  create a fluid container and add a padding.
+6. Apply Bootstrap classes to the Other Project Section with the following layout:
+- When in a medium screen or larger screen, the contents should appear side by side.
+- When in a small screen, the contents should appear on top of each other.
+7. Apply Bootstrap classes to the Core Tools Section with the following layout:
+- The contents must form a triangular shape on all screen sizes.
+8. Apply Bootstrap classes to the Other Tools Section with the following layout:
+- When in a medium screen or larger screen, the contents should appear side by side in 2 rows.
+- When in a small screen, the contents should appear side by side in 2 columns.
+9. Create a git repository named S11.
+10. Initialize a local git repository, add the remote link and push to git with the commit message of Add activity code.
+11. Add the link in Boodle.

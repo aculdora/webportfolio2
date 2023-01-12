@@ -1,0 +1,8 @@
+* {background-image: url("boracay.jpg");
+}
+div {
+	text-align: center;
+	margin: 200px;
+	text-decoration-color: yellow;
+	font-family: "Lobster" , cursive;
+}

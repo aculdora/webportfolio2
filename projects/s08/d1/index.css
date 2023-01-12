@@ -1,0 +1,206 @@
+
+
+
+.{
+font-family: 'Montserrat', sans-serif;
+
+}
+
+#div-1 {
+	background-color: green;
+	display: block;
+}
+
+#span-1 {
+	background-color: purple;
+	display: inline;
+	width: 200px;
+	height: 200px;
+}
+
+#span-2 {
+	background-color: red;
+	display: block;
+}
+
+#hidden-div {
+	background-color: hotpink;
+	display: none;
+}
+
+#img {
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+}
+
+#p-width100{
+	background-color: #87CEFA;
+}
+
+#p-width60{
+					   /* red green blue */
+	background-color: rgb(255, 105, 180);
+	width: 60%;
+}
+
+#p-width40{
+	background-color: yellow;
+	width: 40%;
+}
+
+.p-inlineBlock {
+	/* we use inline block so we could modify the width or height of an element	*/
+	display: inline-block;
+/*	width: 30%;*/
+	width: 30vw;
+	/*border:  thickness | border type | color*/
+	border: 1px solid black;
+	text-align: center;
+/*	height: 20vh;*/
+}
+
+.box{
+	background-color: skyblue;
+	border: 1px solid black;
+	margin: 5px;
+}
+
+.fifty-percent{
+	width: 50%;
+}
+
+.one-hundred-pixels{
+	width: 140px;
+}
+
+.fifty-vw{
+	width: 50vw;
+}
+
+.twenty-five-vh{
+	height: 25vh;
+}
+
+/*------------------------------*/
+
+
+
+
+.parent{
+	width: 135px;
+	border: 2px solid navy;
+	font-size: 30px;
+}
+
+
+.fifty-vw{
+	width: 50vw;
+}
+
+.twenty-five-vh{
+	height: 25vh;
+}
+
+/* root element -defauilt 16px */
+.one-em{
+	font-size: 1em; /* equal to 16px if no parent */
+}
+
+.one-rem{
+	font-size: 1rem;
+
+}
+.two-em{
+	font-size: 2em;
+}
+
+.two-rem{
+	font-size: 2rem;
+}
+
+.two-hundred-percent{
+	font-size: 200%;
+}
+
+.background{
+	min-height: 100vh;
+	background-image: url(https://c4.wallpaperflare.com/wallpaper/43/1003/707/anime-your-name-kimi-no-na-wa-mitsuha-miyamizu-wallpaper-preview.jpg);
+	background-repeat: no-repeat;
+	background-size: 100vw;
+	background-position: center top;
+	background-color: scroll;
+}
+
+.bg-title {
+	color: white;
+	text-align: center;
+	font-size: 5em;
+	margin: 0;
+	line-height: 35rem;
+}
+
+
+.container-bg{
+	background-color: rgba(0,0,0,0.5);
+	min-height: 100vh;
+}
+
+.parent-element{
+	background-color: skyblue;
+	padding: 10px;
+	position: static;
+	height: 150vh;
+}
+
+.child-one{
+	background-color: gray;
+	padding: 10px;
+	position: relative;
+	left: 20px;
+}
+
+.child-two{
+	background-color: yellow;
+	padding: 10px;
+	position: sticky;
+	top: 10px;
+}
+
+.child-three{
+	background-color: gray;
+	padding: 10px;
+}
+
+.container{
+	position: relative;
+}
+
+.black-box{
+	position: relative;
+	border: 2px solid black;
+	height: 100px;
+	margin: 30px;
+	z-index: 1;
+
+}
+
+.gray-box{
+	position: absolute;
+	background-color: lightgray;
+	height: 60px;
+	width: 70%;
+	left: 50px;
+	top: 50px;
+	z-index: 3;
+}
+
+.green-box{
+	position: absolute;
+	background-color: lightgreen;
+	width: 35%;
+	left: 270px;
+	top: -15px;
+	height: 100px;
+	z-index: 2;
+}
